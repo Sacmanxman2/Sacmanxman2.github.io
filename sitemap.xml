@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/blog/Mandatory-First-Post/</loc>
+<loc>/blog/Mandatory-First-Post/</loc>
 <lastmod>2017-11-06T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog/The-Abusive-Relationship-and-The-Car/</loc>
+<loc>/blog/The-Abusive-Relationship-and-The-Car/</loc>
 <lastmod>2017-11-10T05:28:52-06:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/posts/</loc>
+<loc>/posts/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tags/</loc>
+<loc>/tags/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
+<loc>/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/theme-setup/</loc>
+<loc>/theme-setup/</loc>
 </url>
 </urlset>
