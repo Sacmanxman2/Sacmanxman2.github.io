@@ -342,12 +342,13 @@ header nav > ul > li a.menu-parent, header .kicker, footer .lockup .content-wrap
   text-shadow: 0 0 10px black, 0 0 5px black, 0 0 15px black, 0 0 20px black; }
 
 header, footer {
-  background: url("/assets/img/BrickTexture.png");
+  background: url("/assets/img/BrickTexture.jpg");
   background-size: cover;
   overflow: auto; }
 
 header {
-  height: 325px; }
+  min-height: 325px;
+  max-height: 450px; }
   header nav {
     float: right;
     margin: 30px 30px 0 0; }
@@ -369,7 +370,7 @@ header {
             color: white; }
   header h1 {
     text-align: center;
-    font-size: 72px;
+    font-size: calc(32px + 2vw);
     font-weight: 700px;
     font-family: "Comfortaa";
     color: white;
