@@ -444,13 +444,17 @@ footer .lockup {
     margin: 20px;
     padding: 30px;
     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.5);
-    flex: 1 0 400px; }
+    flex: 1 0 400px;
+    flex-shrink: 2; }
     .postlist li a {
       color: #555; }
     .postlist li h2 {
       color: #555;
       margin-top: 10px;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      font-size: calc(22px + 1vw); }
+    .postlist li p {
+      font-size: calc(10px + .3vw); }
     .postlist li:hover {
       box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.5); }
   .postlist .postdate {
