@@ -17,11 +17,11 @@
     <h1 class="mt0 pa4 f1 lh-title">Kitchen Sink: A Random Generator for Writing Practice</h1>
   </header>
   <main class="tc">
-  <div id="app" class="f2 br2">
+  <div id="app" class="f3 br2">
+    <a href="#" @click.prevent="itemGen" class="f3 grow no-underline br-pill pa3 dib white bg-mid-gray">Generate new items</a>
     <p><span class="b">Prop</span><br class="mv2">{{ prop }}</p>
     <p><span class="b">Character</span><br class="mv2">{{ character }}</p>
     <p><span class="b">Line of Dialogue</span><br class="mv2">{{ dialogue }}</p>
-    <a href="#" @click.prevent="itemGen" class="f2 grow no-underline br-pill pa3 dib white bg-mid-gray">Generate new items</a>
   </div>
   </main>
   <script src="script.js"></script>
